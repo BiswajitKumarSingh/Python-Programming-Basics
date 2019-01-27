@@ -17,10 +17,7 @@ def square(length, angle):
 for i in range(70):
      square(200,80)
      my_turtle.right(11)
-#wn.exitonclick()                # wait for a user click on the canvas
-#input('Press any key to exit : ') 
-#import turtle
-#turtle.pensize(10)
+    
 wn=turtle.Screen()
 wn.bgcolor('black')
 my_turtle.pendown()
